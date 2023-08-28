@@ -27,6 +27,6 @@ def original_url(short_link):
 
 
 def db_save(obj):
-    """Сохранение в БД"""
+    """Сохранение в БД."""
     db.session.add(obj)
     db.session.commit()
